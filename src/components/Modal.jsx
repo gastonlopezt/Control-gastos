@@ -42,7 +42,7 @@ const Modal = ({ setModal, animarModal, setAnimarModa, guardarGasto }) => {
         <img src={CerrarBtn} alt="cerrar modal" onClick={ocultarModal} />
       </div>
 
-      <form 
+      <form
         onSubmit={handleSubmit}
         className={`formulario ${animarModal ? "animar" : "cerrar"}`}
       >
@@ -77,6 +77,7 @@ const Modal = ({ setModal, animarModal, setAnimarModa, guardarGasto }) => {
           >
             <option value="">-- Seleccione --</option>
             <option value="ahorro">Ahorro</option>
+            <option value="comida">Comida</option>
             <option value="casa">Casa</option>
             <option value="gastos">Gastos Varios</option>
             <option value="ocio">Ocio</option>

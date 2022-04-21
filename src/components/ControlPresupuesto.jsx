@@ -11,7 +11,6 @@ const ControlPresupuesto = ({gastos, presupuesto}) => {
         gasto.cantidad + total, 0);
 
         const totalDisponible = presupuesto - totalGastado
-        console.log(totalDisponible)
 
 
 
